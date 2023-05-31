@@ -4,6 +4,7 @@
 #include <stdio.h>
 int main()
 {
+	// программа является учебной
 	int a, b, c;
 	printf("Введите число а\n");
 	scanf("%d", &a);
