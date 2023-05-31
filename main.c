@@ -4,6 +4,7 @@
 #include <stdio.h>
 int main()
 {
+	//учебная программа
 	int a, b, c, d;
 	printf("Введите число а\n");
 	scanf("%d", &a);
@@ -11,7 +12,4 @@ int main()
 	scanf("%d", &b);
 	c  = a + b;
 	printf("Сумма введенных чисел равна = %d", c);
-	d  = a - b;
-	printf("разность введенных чисел равна = %d", cd);
-	return 0;
 }
