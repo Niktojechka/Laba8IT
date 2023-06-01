@@ -17,4 +17,5 @@ int main()
 	else
 		d = b - a;
 	printf("произведение введенных чисел равно = %d", d);
+	return 0;
 }
