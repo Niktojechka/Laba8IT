@@ -4,8 +4,7 @@
 #include <stdio.h>
 int main()
 {
-	//учебная программа
-	int a, b, c, d;
+	int a, b, c,d ,e;
 	printf("Введите число а\n");
 	scanf("%d", &a);
 	printf("Введите число b\n");
@@ -18,4 +17,6 @@ int main()
 		d = b - a;
 	printf("произведение введенных чисел равно = %d", d);
 	return 0;
+	e = a/b;
+	printf("Частное введенных чисел равно = %d", e);
 }
